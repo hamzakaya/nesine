@@ -1,0 +1,37 @@
+{
+  "name": "frontend-case",
+  "version": "1.0.0",
+  "description": "frontend-case",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.ts --mode development",
+    "build": "webpack --config webpack.config.ts --mode production"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.4.3",
+    "@tanstack/react-virtual": "^3.0.0-beta.54",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.8",
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
+    "@types/webpack-dev-server": "^4.7.2",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^6.8.1",
+    "fork-ts-checker-webpack-plugin": "^9.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "react-refresh": "^0.14.0",
+    "tailwindcss": "^3.3.5",
+    "ts-loader": "9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
